@@ -39,6 +39,16 @@ Message arguments don't need to be evaluated if the message is going to be filte
 The logging service marshals the message and its context to a background queue for processing by all available output streams.  Streams can then filter or output the message.
 
 ## Installation
+### Swift Package Manager
+```swift
+    dependencies: [
+        .package(
+            url: "https://github.com/pavelosipov/ios-twitter-logging-service.git",
+            revision: "97af137b5192b17eaa38c8aa0ec64f8e0689af4a"
+        )
+    ]
+```
+
 ### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it using the following command:
